@@ -1,0 +1,105 @@
+/*  Media queries to make it mobile and desktop responsive */
+@media (min-width: 500px) {
+    #container {
+        margin-top: 300px;
+    }
+    #barandbutton {
+        margin-left: 50px;
+    }
+    #searchbar {
+        width: 500px;
+    }
+    #buttons {
+        padding-left: 110px;
+    }
+}
+
+@media (max-width: 500px) {
+    #container {
+        margin-top: 200px;
+    }
+
+    #searchbar {
+        width: 300px;
+        margin-left: 5px;
+    }
+
+    #buttons {
+        margin-left: 30px;
+    }
+
+    #barandbutton {
+        margin-left: 20px;
+    }
+}
+
+/*  Search bar */
+#searchbar {
+    border-radius: 24px;
+    border-width: 1px;
+    height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #888888;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+#searchbar:focus, #searchbar:hover {
+    box-shadow: 0 0 1px 1px #acacac;
+    outline: none;
+}
+
+/*  Google logo */
+h1 {
+    font-size: 85px;    
+}
+
+h1:hover {
+    cursor: default;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+span {
+    font-family: Product Sans;
+}
+
+.g {
+    color: #4D90FE; 
+}
+
+.oe {    
+    color: #DB4437;
+}
+
+#o {
+    color: #ffc400;
+}
+
+#l {
+    color: #25be25;
+}
+
+/*  Setting font */
+body {
+    font-family: Product Sans;
+}
+
+/*  Navbar */
+#navbar {
+    overflow: hidden;
+}
+
+#navbar a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}        

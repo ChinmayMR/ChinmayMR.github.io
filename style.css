@@ -1,0 +1,39 @@
+/*  Buttons */
+#buttons {
+    margin-top: 10px;
+}
+
+#searchbutton, #Lsearchbutton {
+    display: inline;
+    background-color: #F8F9FA;
+    border-style: none;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 15px;    
+    color: #3c4043de;
+    margin: 10px;
+}
+
+#searchbutton:hover, #Lsearchbutton:hover {
+    box-shadow: 0 0 1px 1px #a4a4a4;
+    outline: none;
+    cursor: pointer;
+}
+
+/*  Search bar and 2 buttons */
+#barandbutton {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+#searchbar {
+    margin-right: 90px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: -0.1px;
+}

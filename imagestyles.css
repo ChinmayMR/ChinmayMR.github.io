@@ -1,0 +1,20 @@
+/*  Search bar */
+h1, h3, #searchbar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    padding-bottom: 270px;
+}
+
+h3 {
+    padding-bottom: 110px;
+    margin-left: 105px;
+    color: #4285F4;
+    font-weight: normal;
+}
